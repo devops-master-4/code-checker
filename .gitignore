@@ -1,0 +1,14 @@
+# vim stuff
+*.swo
+*.swp
+
+# vscode stuff
+.vscode/
+vscode/
+
+# config stuff
+*-log.txt
+*-lock.json
+*.env
+
+node_modules/
