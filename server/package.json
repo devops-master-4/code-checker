@@ -7,7 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js",
-    "start": "node index.js"
+    "start": "node index.js",
+    "generate-docs": "jsdoc --configure jsdoc.json --verbose"
   },
   "repository": {
     "type": "git",
@@ -29,6 +30,7 @@
   "homepage": "https://github.com/devops-master-4/code-checker#readme",
   "dependencies": {
     "axios": "^1.4.0",
+    "clean-jsdoc-theme": "^4.2.7",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "jshint": "^2.13.6",
